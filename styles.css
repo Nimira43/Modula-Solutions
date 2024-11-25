@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  --dark: #111;
+  --light: floralwhite;
+  --grey: #888;
+  --grey-lg: #eee;
+  --grey-md: #ccc;
+  --grey-dk: #333;
+  --primary: #ff4500;
+  --secondary: #87ceeb;
+  --third: #027474;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.logo {
+  font-family: 'Fredericka the Great', serif;
+  background-color: ;
+}
