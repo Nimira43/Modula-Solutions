@@ -6,6 +6,6 @@ function getLogin(req, res) {
 }
 
 module.exports = {
-  getSignup: getSignup
+  getSignup: getSignup,
   getLogin: getLogin
 }
