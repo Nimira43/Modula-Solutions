@@ -20,7 +20,7 @@
   --space-8: 2rem;
 
   --brad-sm: 3px;
-  --brad-sm: 5px;
+  --brad-md: 5px;
 
   --shad-md: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -45,3 +45,21 @@ ol {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: var(--space-2) var(--space-2);
+  background-color: var(--primary);
+  color: var(--light);
+  border: none;
+  border-radius: var(--brad-sm);
+
+}
