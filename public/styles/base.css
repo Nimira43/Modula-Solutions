@@ -10,19 +10,27 @@
   --grey-md: #888;
   --grey-dk: #333;
   --primary: #ff4500;
-  --secondary: #87ceeb;
+  --secondary: #33afe0;
   --third: #008080;
 
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-4: 1rem;
-  --space-6: 1.5rem;
-  --space-8: 2rem;
+  --size-1: 1px;
+  --size-2: 2px;
+  --size-3: 3px;
+  --size-4: 4px;
+  --size-5: 5px;
+  --size-6: 6px;
+  --size-8: 8px;
+  --size-10: 10px;
+  --size-12: 12px;
+  --size-15: 15px;
+  --size-20: 20px;
+  --size-25: 25px;
 
-  --brad-sm: 3px;
-  --brad-md: 5px;
+  --border-radius-sm: var(--size-3);
+  --border-radius-md: var(--size-5);
+  --border-radius-lg: var(--size-8);
 
-  --shad-md: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -65,13 +73,13 @@ a {
   cursor: pointer;
   font-family: inherit;
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--size-20);
   text-transform: uppercase;
-  padding: var(--space-2) var(--space-2);
+  padding: var(--size-8) var(--size-8);
   background-color: var(--primary);
   color: var(--light);
   border: none;
-  border-radius: var(--brad-sm);
+  border-radius: var(--border-radius-sm);
   transition: all 0.3s ease;
 }
 
