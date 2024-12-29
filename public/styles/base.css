@@ -92,3 +92,7 @@ a {
   background-color: var(--light);
   color: var(--primary);
 }
+
+.switch-form {
+  color: var(--light);
+}
