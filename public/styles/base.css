@@ -19,12 +19,16 @@
   --size-4: 4px;
   --size-5: 5px;
   --size-6: 6px;
-  --size-8: 8px;
+  --size-8: 8px;      /* 0.5rem */
   --size-10: 10px;
   --size-12: 12px;
   --size-15: 15px;
   --size-20: 20px;
   --size-25: 25px;
+  --rem-1: 1rem;      /* 16px */
+  --rem-1-5: 1.5rem;  /* 24px */
+  --rem-2: 2rem;      /* 32px */
+  --rem-2-5: 2.5rem;  /* 40px */ 
 
   --border-radius-sm: var(--size-3);
   --border-radius-md: var(--size-5);
@@ -49,8 +53,8 @@ main {
 
 .logo {
   font-family: 'Caveat', cursive;
-  font-size: 2.5rem;
-  padding: 2rem;
+  font-size: var(--rem-2-5);
+  padding: var(--rem-2);
 }
 
 h1 {
@@ -75,7 +79,7 @@ a {
   font-weight: 400;
   font-size: var(--size-20);
   text-transform: uppercase;
-  padding: var(--size-8) var(--size-8);
+  padding: var(--size-4) var(--size-8);
   background-color: var(--primary);
   color: var(--light);
   border: none;
