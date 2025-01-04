@@ -23,3 +23,8 @@ form a:hover,
 form a:active {
   color: var(--primary)
 }
+
+form hr {
+  border-color: var(--primary);
+  margin: var(--rem-1);
+}
