@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
-  color: var(--primary);
+  text-transform: uppercase;
+  color: var(--light);
 }
 
 form {
@@ -8,4 +9,17 @@ form {
   margin: var(--rem-2) auto;
   padding: var(--rem-1);
   background-color: var(--third);
+  border-radius: var(--border-radius-md);
+  text-align: center;
+}
+
+form a {
+  color: var(--light);
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+form a:hover,
+form a:active {
+  color: var(--primary)
 }

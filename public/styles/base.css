@@ -54,7 +54,7 @@ main {
 
 .logo {
   font-family: 'Caveat', cursive;
-  font-size: var(--rem-2-5);
+  font-size: var(--rem-1-5);
   padding: var(--rem-2);
 }
 
