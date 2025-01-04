@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+  color: var(--primary);
+}
+
+form {
+  max-width: 25rem;
+  margin: var(--rem-2) auto;
+  padding: var(--rem-1);
+  background-color: var(--third);
+}

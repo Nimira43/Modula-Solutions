@@ -11,7 +11,7 @@
   --grey-dk: #333;
   --primary: #ff4500;
   --secondary: #33afe0;
-  --third: #008080;
+  --third: #012222;
 
   --size-1: 1px;
   --size-2: 2px;
@@ -43,6 +43,7 @@ body {
   background-color: var(--dark);
   color: var(--light);
   margin: 0;
+  outline: none;
 }
 
 main {
@@ -95,4 +96,9 @@ a {
 
 .switch-form {
   color: var(--light);
+}
+
+input {
+  outline: none;
+  border: none;
 }
