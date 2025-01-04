@@ -28,3 +28,9 @@ form hr {
   border-color: var(--primary);
   margin: var(--rem-1);
 }
+
+label {
+  color: var(--light);
+  display: block;
+  margin-bottom: var(--size-8); 
+}
