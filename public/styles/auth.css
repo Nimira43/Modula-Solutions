@@ -34,3 +34,12 @@ label {
   display: block;
   margin-bottom: var(--size-8); 
 }
+
+input, textarea {
+  font: inherit;
+  padding: var(--size-8);
+  border-radius: var(--border-radius-sm);
+  border: none;
+  outline: none;
+  width: 90%;
+}
