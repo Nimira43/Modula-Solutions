@@ -1,5 +1,7 @@
 export default function HomePage() {
   return (
-    <div>Home</div>
+    <div className='p-5 bg-[#ff4500]'>
+      <h1 className='logo text-[#fffcfa] text-3xl'>Modulas</h1>
+    </div>
   )
 }
