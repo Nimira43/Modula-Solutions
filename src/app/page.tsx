@@ -4,10 +4,17 @@ import { HiOutlineTicket } from 'react-icons/hi2'
 const HomePage = () => {
   return ( 
     <main className='flex flex-col text-center items-center justify-center min-h-screen px-4'>
-      <h1 className='text-3xl md:text:4xl font-medium mb-4 text-prime'>Modulas Solutions</h1>
-      <p className='text-lg text-'>Support Ticket Management System</p>
+      <h1 className='text-3xl md:text:4xl font-medium mb-4 text-orange-500'>Modulas Solutions</h1>
+      <p className='text-lg text-grey-700'>Support Ticket Management System</p>
 
-      <div className='flex flex-col'></div>
+      <div className='flex flex-col md:flex-row gap-4 justify-center'>
+        <Link 
+          href='/tickets/new'
+          className='bg-orange-500 text-white px-6 py-3 rounded-md shadow hover:bg-orange-600 transition'
+        >
+          Submit
+        </Link>
+      </div>
     </main>
   )
 }
