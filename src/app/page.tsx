@@ -18,7 +18,7 @@ const HomePage = () => {
         </Link>
         <Link 
           href='/tickets/new'
-          className='uppercase bg-[#111] text-white px-6 py-3 rounded-md shadow hover:bg-black transition'
+          className='uppercase bg-[#222] text-white px-6 py-3 rounded-md shadow hover:bg-black transition'
         >
           View
         </Link>
